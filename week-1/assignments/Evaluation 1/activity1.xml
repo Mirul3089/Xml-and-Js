@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>​
-<myMessage>
+<myself>
   <subject> Introduction to myself </subject>​
   <name> Mirul Patel </name>​
   <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
   <hobbies>Cricket,Volleyball</hobbies>
-</myMessage>
+</myself>
+<!--  2nd  Structure for 10 records -->
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
+<person>
+  <subject> Introduction to myself </subject>​
+  <name> Mirul Patel </name>​
+  <aboutme>I have completed my bachelors in Computer Science and cureently enrolled in Humber college</aboutme>
+  <hobbies>Cricket,Volleyball</hobbies>
+</person>
