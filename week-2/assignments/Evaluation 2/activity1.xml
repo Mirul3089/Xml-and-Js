@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<Businesscard>
+     <name> Joe Marini ​</name>
+     <hcontact>+1(415)555-1234(home)</hcontact>
+     <wcontact>+1(800)555-9867(work)</wcontact>
+     <mcontact>+1(510)555-1212(mobile)</mcontact>
+     <email>joe@joe.com</email>
+</Businesscard>
