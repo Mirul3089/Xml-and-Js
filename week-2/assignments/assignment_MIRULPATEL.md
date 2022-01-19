@@ -1,22 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<?xml-stylesheet type="text/css" href="style.css"?>
-<!DOCTYPE menuInfo
-[
-  <!ELEMENT menuInfo (title, summary, effectiveDate, menu+)>
-  <!ELEMENT menu (category, menuItem)>
-  <!ELEMENT category (#PCDATA)>
-  <!ELEMENT menuItem (itemName, description, price, indicator+)>
-  <!ELEMENT description (#PCDATA)>
-  <!ELEMENT price (#PCDATA)>
-  <!ELEMENT indicator (#PCDATA)>
-  <!ELEMENT title (#PCDATA)>
-  <!ELEMENT summary (#PCDATA)>
-  <!ELEMENT effectiveDate (#PCDATA)>
-  <!ELEMENT itemName (originalName, oldName)>
-  <!ELEMENT originalName (#PCDATA)>
-  <!ELEMENT oldName (#PCDATA)>
-]>
-<menuInfo>
+1. Yes, there are was a error in xml tag (<effective Date>).The space in the tag has generated error so to solve that error, I have removed the space from that tag(<effectiveDate>).
+cause: you can't leave/add the space in XML tag.
+![image info](2.JPG)
+![image info](3.JPG)
+
+2. Parser simply prints that block or text as it is because the text between CDATA can't be parsed by parser.
+
+3. ![image info](1.JPG)
+
+4. prolog: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+   Document body: 
+   <menuInfo>
   <title>Chester's Breakfast Menu</title>
   <summary>
     <![CDATA[
@@ -42,13 +36,7 @@
         ]]>
       </description>
       <price>7.95</price>
-      <indicator>&#9829;</indicator>
-      <indicator>&#9830;</indicator>  <!-- low-sodium -->
-      <indicator>&#9824;</indicator>  <!-- vegan -->  
     </menuItem>
-  </menu>
-  <menu>
-  <category>Traditional</category>
     <menuItem>
       <itemName>
         <originalName> Fresh Mornin' Sampler </originalName>
@@ -72,7 +60,6 @@
     <menuItem>
       <itemName>
         <originalName> Oatmeal Breakfast </originalName>
-        <oldName> Mornin' Sampler </oldName>
       </itemName>
       <description>
         <![CDATA[
@@ -87,9 +74,6 @@
       <indicator>&#9830;</indicator>  <!-- low-sodium -->
       <indicator>&#9824;</indicator>  <!-- vegan -->  
     </menuItem>
-  </menu>
-  <menu>
-  <category>Lite</category>
     <menuItem>
       <itemName>
         <originalName> Chester's Meat Platter </originalName>
@@ -103,13 +87,17 @@
         ]]>
       </description>
       <price>12.95</price>
-      <indicator>&#9832;</indicator> <!-- Low-carb -->
-      <indicator>&#9830;</indicator>  <!-- low-sodium -->
-      <indicator>&#9824;</indicator>  <!-- vegan -->  
+      <indicator>&#9832;</indicator>  <!-- Low-carb -->
     </menuItem>
   </menu>
 </menuInfo>
-<!--
-  Name : Mirul Patel
-  Student id: N01489347
--->
+
+epilog:
+![image info](4.JPG)
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+5. ![image info](5.JPG)
+
+6. ![image info](6.JPG)
+
+7. have added style.css
