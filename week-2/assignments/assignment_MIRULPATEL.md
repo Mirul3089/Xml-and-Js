@@ -9,10 +9,12 @@ cause: you can't leave/add the space in XML tag.
 3. 
 ![image info](1.JPG)
 
-4. prolog: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+4. prolog: ((( <?xml version="1.0" encoding="UTF-8" standalone="yes" ?> )))
+______________________________________________________________________________________________________________
 
-   Document body: 
-<menuInfo>
+Document body: 
+<!-- 
+ <menuInfo>
   <title>Chester's Breakfast Menu</title>
   <summary>
     <![CDATA[
@@ -52,9 +54,9 @@ cause: you can't leave/add the space in XML tag.
         ]]>
       </description>
       <price>6.95</price>
-      <indicator>&#9829;</indicator>  <!-- heart healthy -->
-      <indicator>&#9830;</indicator>  <!-- low-sodium -->
-      <indicator>&#9824;</indicator>  <!-- vegan -->  
+      <indicator>&#9829;</indicator>  
+      <indicator>&#9830;</indicator>  
+      <indicator>&#9824;</indicator>  
     </menuItem>
   </menu>
   <menu>
@@ -72,9 +74,9 @@ cause: you can't leave/add the space in XML tag.
         ]]>
       </description>
       <price>6.95</price>
-      <indicator>&#9829;</indicator>  <!-- heart healthy -->
-      <indicator>&#9830;</indicator>  <!-- low-sodium -->
-      <indicator>&#9824;</indicator>  <!-- vegan -->  
+      <indicator>&#9829;</indicator>  
+      <indicator>&#9830;</indicator>  
+      <indicator>&#9824;</indicator>  
     </menuItem>
     <menuItem>
       <itemName>
@@ -89,17 +91,18 @@ cause: you can't leave/add the space in XML tag.
         ]]>
       </description>
       <price>12.95</price>
-      <indicator>&#9832;</indicator>  <!-- Low-carb -->
+      <indicator>&#9832;</indicator>  
     </menuItem>
   </menu>
 </menuInfo>
-
+ -->
 epilog:
 ![image info](4.JPG)
 
 &
-
+<!-->
 <?xml-stylesheet type="text/css" href="style.css"?>
+-->
 
 5. 
 ![image info](5.JPG)
@@ -107,4 +110,4 @@ epilog:
 6. 
 ![image info](6.JPG)
 
-7. have added style.css
+7.I have added style.css
