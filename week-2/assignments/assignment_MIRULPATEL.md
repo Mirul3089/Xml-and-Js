@@ -1,16 +1,18 @@
 1. Yes, there are was a error in xml tag (<effective Date>).The space in the tag has generated error so to solve that error, I have removed the space from that tag(<effectiveDate>).
 cause: you can't leave/add the space in XML tag.
+
 ![image info](2.JPG)
 ![image info](3.JPG)
 
 2. Parser simply prints that block or text as it is because the text between CDATA can't be parsed by parser.
 
-3. ![image info](1.JPG)
+3. 
+![image info](1.JPG)
 
 4. prolog: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
    Document body: 
-   <menuInfo>
+<menuInfo>
   <title>Chester's Breakfast Menu</title>
   <summary>
     <![CDATA[
@@ -94,10 +96,15 @@ cause: you can't leave/add the space in XML tag.
 
 epilog:
 ![image info](4.JPG)
+
+&
+
 <?xml-stylesheet type="text/css" href="style.css"?>
 
-5. ![image info](5.JPG)
+5. 
+![image info](5.JPG)
 
-6. ![image info](6.JPG)
+6. 
+![image info](6.JPG)
 
 7. have added style.css
