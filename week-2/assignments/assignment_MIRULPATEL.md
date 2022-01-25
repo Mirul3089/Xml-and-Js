@@ -9,7 +9,7 @@ cause: you can't leave/add the space in XML tag.
 3. 
 ![image info](1.JPG)
 
-4. prolog: ((( <?xml version="1.0" encoding="UTF-8" standalone="yes" ?> )))
+4. prolog: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 ______________________________________________________________________________________________________________
 
 Document body: 

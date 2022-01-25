@@ -1,10 +1,10 @@
 # Activity 2
 
 ```xml
-<employeeList>
+<employeeList xmlns="urn:corp:list" xmlns="urn:corp:emp" xmlns="urn:corp:dep">
   <personList>
     <empID>E0000001</empID>
-    <name>Sales</name>
+    <dept:name>Sales</name>
     <name>John Smith</name>
   </personList>
   <personList>
