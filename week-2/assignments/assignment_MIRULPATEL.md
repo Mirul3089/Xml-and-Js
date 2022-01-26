@@ -107,7 +107,7 @@ epilog:
 5. 
 ![image info](5.JPG)
 
-6. 
-![image info](6.JPG)
+6. ![image info](6.JPG)
+
 
 7.I have added style.css
