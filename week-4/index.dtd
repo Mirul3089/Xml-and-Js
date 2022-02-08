@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ps [
+    <!ELEMENT ps (product+)>
+    <!ELEMENT product (pName, Sizes, prices)>
+    <!ATTLIST product id ID #REQUIRED>
+    <!ELEMENT pName (#PCDATA)>
+    <!ELEMENT Sizes (size+)>
+    <!ATTLIST size description CDATA #REQUIRED>
+    <!ELEMENT size (#PCDATA)>
+    <!ELEMENT prices (price+)>
+    <!ATTLIST price currency CDATA #REQUIRED>
+    <!ELEMENT price (#PCDATA)>
+]>

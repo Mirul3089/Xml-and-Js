@@ -31,10 +31,10 @@
                                             <xsl:for-each select="size">
                                                 <tr>
                                                     <td>
-                                                        <xsl:value-of select="./item_number"/>
+                                                        <xsl:value-of select="../item_number"/>
                                                     </td>
                                                     <td>
-                                                        <xsl:value-of select="./price"/>
+                                                        <xsl:value-of select="../price"/>
                                                     </td>
                                                     <xsl:choose>
                                                         <xsl:when test="../@gender='men'">
