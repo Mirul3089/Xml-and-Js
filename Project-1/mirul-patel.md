@@ -1,0 +1,2 @@
+I have created a html file and css file and have also contributed in js file
+I have created form in html file with the required form filters such as Gender Radio Button, Department Checkboxes, Input field to filter by name. 
