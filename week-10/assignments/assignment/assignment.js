@@ -1,4 +1,4 @@
-const employees = require('./assignment.json');
+const employees = require('./activity');
 
 const getAll = ({ id, fname, lname, email, gender, ipAddress}) =>
     new Promise((resolve) => {
@@ -34,7 +34,7 @@ const getAll = ({ id, fname, lname, email, gender, ipAddress}) =>
 const getById = (employeeId) => 
     new Promise((resolve) => {
 
-        const employee = employees.find((item) => item.id === Number(employeeId));
+        const employee = find((item) => item.id === Number(employeeId));
 
         if (employee) {
             resolve({ code: 200, data: JSON.stringify(employee)});
@@ -46,7 +46,7 @@ const getById = (employeeId) =>
         }
 })
 
-module.exports = {
+export default {
     getAll,
     getById
 }

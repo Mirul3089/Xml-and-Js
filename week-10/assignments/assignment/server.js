@@ -1,6 +1,7 @@
 const http = require("http");
 
-const employee = require("./assignment.json");
+const employee = require("./assignment");
+
 
 const parseURLParams = (paramsString) => {
     const params = new URLSearchParams(paramsString);
@@ -8,20 +9,20 @@ const parseURLParams = (paramsString) => {
     return Array.from(params.entries()).reduce((acc, [key, value]) => ({ ...acc, [key]: value}), {})
 }
 
-const server = http.createServer(async(req, res) => {
+const server = createServer(async(req, res) => {
 
     const [path, paramsString] = req.url.split("?");
 
     if( path === "/api/assignment") {
         const params = parseURLParams(paramsString);
-        const { code, data} = await employee.getAll(params);
+        const { code, data} = await getAll(params);
 
         res.writeHead(code, { "Content-Type": "application/json" });
         res.end(data);
     } else if(path.match(/\/api\/assignment\/\w+/)) {
          const id = path.split("/")[3];
 
-         const { code, data } = await employee.getById(id);
+         const { code, data } = await getById(id);
 
          res.writeHead(code, {"Content-Type" : "application/json"});
          res.end(data);
