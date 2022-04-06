@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment week 5</title>
+    <style>
+        th,tr {
+            padding: 25px;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input
+        type="text"
+        name="value"
+        id="input-term"
+        placeholder="enter value"
+      />
+      <select name="filters" id="filter">
+        <option value="fn">EmployeeId</option>
+        <option value="fname">FirstName</option>
+        <option value="lname">LastName</option>
+        <option value="email">Email</option>
+        <option value="gender">Gender</option>
+        <option value="ip1">Occupation</option>
+        <option value="ip2">Department</option>
+        <option value="ip3">CompanyName</option>
+        <option value="ip4">State</option>
+        <option value="ip5">Country</option>
+      </select>
+      <button type="submit" >Apply filters</button><br><br>
+      <input type="radio" id="html"  value="Country">
+      <label for="html">Department</label>
+      <input type="radio" id="html" value="Department">
+      <label for="html">Country</label>
+    </form><br>
+    <button type="submit" onclick="resetTable()">Reset</button>     
+    <table id="table-main">
+      <tr>
+        <th>EmployeeId</th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Occupation</th>
+          <th>Department</th>
+          <th>CompanyName</th>
+          <th>State</th>
+          <th>Country</th>
+      </tr>
+    </table>
+    <script type="text/javascript" src="../api/products.js">
+      console.log("I am in");
+    </script>
+  </body>
+</html>
