@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 2</title>
+        <style>
+            input, select, label, fieldset {
+                margin: 12px;
+            }
+            fieldset {
+                max-width: fit-content;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tours & Travel Information</h1>
+        <form id="Form" >
+            Search: <input type="text" name="input" id="input-value-term" placeholder="Enter a Value "/>
+            <select name="filters" id="filter">
+                <option value="name">FullName</option>
+                <option value="email">Email</option>
+                <option value="gender">Gender</option>
+                <option value="phone">PhoneNumber</option>
+                <option value="dest">Destination</option>
+                <option value="pack">Package</option>
+                <option value="dur">Duration</option>
+                <option value="tm">TotalMembers</option>
+                <option value="add">Address</option>
+                
+            </select>
+
+            <fieldset>                
+                <legend>Gender:</legend>
+                <input type="radio" name="m" value="fi"/>
+                <label for="first">Male</label>                            
+                <input type="radio"  name="m" value="se"/>
+                <label for="second">Female</label> 
+                <input type="radio"  name="m" value="e"/>
+                <label for="second">Other</label>                                    
+            </fieldset>
+
+            <br/>
+            <input type="submit" value="Filter"/>
+            <input type="reset" value="Reset"/>
+        </form>
+        <table>
+            <thead>
+              <th>Trip_Id</th>
+              <th>FullName</th>
+              <th>Email</th>
+              <th>Gender</th>
+              <th>PhoneNumber</th>
+              <th>Destination</th>
+              <th>Package</th>
+              <th>Duration</th>
+              <th>TotalMembers<th>
+              <th>Address</th>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+          <script type="text/javascript" src="./tourist.js"></script>
+        </fieldset>
+    </body>
+</html>
